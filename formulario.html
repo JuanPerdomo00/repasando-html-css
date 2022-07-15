@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario 🪴</title>
+    <meta name="robots" content="index,folows" />
+    <meta name="description" content="Formulario de reto 3" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="./index.html">Inicio</a></li>
+        </ul>
+      </nav>
+      <h1>Bienvenido al formulario</h1>
+      <p>Porfavor llena el formulario</p>
+    </header>
+    <main>
+      <form action="">
+        <label for="nombre">
+          <span class="preguntar">Cual es su nombre? 🇩🇰</span>
+          <input
+            class="input"
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nombre"
+            autocomplete="name"
+            required
+          />
+        </label>
+        <br />
+        <label for="apellido">
+          <span class="preguntar">Cual es su apellido? 🇩🇰</span>
+          <input
+            class="input"
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Apellido"
+            autocomplete="family-name"
+            required
+          />
+        </label>
+        <br />
+        <label for="email">
+          <span class="preguntar">Cual es tu email 📫</span>
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            autocomplete="email"
+            required
+          />
+        </label>
+        <br />
+        <label for="telefono">
+          <span class="preguntar">Cual es tu telefono? ☎️</span>
+          <input
+            class="input"
+            type="number"
+            name="telefono"
+            id="telefono"
+            placeholder="Telefono"
+            autocomplete="tel-local"
+            required
+          />
+        </label>
+        <input class="boton" type="submit" value="Enviar" />
+      </form>
+    </main>
+    <footer>
+      <p>Es mejor cambiar de opinion, que persistir en una equivocada</p>
+      <marquee behavior="" direction=""><p>Creado con amor by: <a href="https://github.com/JuanPerdomo00" target="_blank">Jakepy</a></p></marquee>
+    </footer>
+  </body>
+</html>

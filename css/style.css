@@ -1,0 +1,60 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.main-nav {
+    margin-top: 0px;
+    list-style: none;
+    background-color: black;
+    padding: 10px;
+    text-align: right;
+
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color : white;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: red;
+}
+
+.main-nav__item a::after {
+    content: " | ";
+}
+
+.conter {
+    display: inline-block;
+}
+
+.imagen-albert {
+    border-radius: 10px;
+}
+
+
+marquee {
+    display: inline-block;;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+marquee a{
+    text-decoration: none;
+    color: red;
+}
+
+marquee a:hover {
+    color: gold;
+}
